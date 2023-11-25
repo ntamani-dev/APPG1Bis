@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Audos Plateforme Accueil</title>
+
+</head>
+<body class="search">
+<div class='page-container'>
+
+	
+
+    <form action="/LoginService" method="post" class="myform">
+    <h1>Admin Interface</h1>
+    <input type="hidden" name="usertype" value="master">
+         <img src="icons/logo-audos.png" class="audos-icon"></img>
+    <br>
+         <span id="neg" style='color:red'> </span><br/>
+         
+          <div class="fontuser">
+        <input type="text" placeholder="identifiant de compte" name="username" id ="uname" required>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+      
+      <div class="fontuser">
+            <input type="password" placeholder="mot de passe" name="psw" id="pswlogin" required>
+           <i class="fa fa-key" aria-hidden="true"></i>
+
+
+        </div>
+        
+          
+          <div class="grid-container row">
+            <button type="submit" id="submit" class="column"><i class="fa fa-sign-in" aria-hidden="true"></i> Se connecter </button>		
+            <button type="button" class="cancelButton column" id="cancel" ><i class="fa fa-ban" aria-hidden="true"></i> Annuler</button>
+        </div>
+        
+    </form>
+
+
+</div>
+</body>
+</html>
